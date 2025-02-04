@@ -17,3 +17,6 @@ for letter in range(0, nr_letters):
 for number in range(0, nr_numbers):
     password_list += random.choice(numbers)
 
+for symbol in range(0, nr_symbols):
+    password_list += random.choice(symbols)
+

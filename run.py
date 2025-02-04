@@ -14,4 +14,6 @@ password_list = []
 for letter in range(0, nr_letters):
     password_list += random.choice(letters)
 
+for number in range(0, nr_numbers):
+    password_list += random.choice(numbers)
 

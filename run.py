@@ -20,3 +20,9 @@ for number in range(0, nr_numbers):
 for symbol in range(0, nr_symbols):
     password_list += random.choice(symbols)
 
+password = ""
+
+for char in password_list:
+    password += char
+
+print(password)

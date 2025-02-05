@@ -3,7 +3,9 @@ import string
 
 letters = list(string.ascii_letters)
 numbers = list(string.digits)
-symbols = list("!#$%&()*+")
+symbols = list("!#$%&()*+?€")
+
+password_length = 11
 
 nr_letters = random.randint(1,5)
 nr_numbers = random.randint(1,5)

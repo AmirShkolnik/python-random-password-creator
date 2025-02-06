@@ -3,7 +3,7 @@ import string
 
 letters = list(string.ascii_letters)
 numbers = list(string.digits)
-symbols = list("!#$%&()*+?€")
+symbols = list("!#$%&()*+?€/")
 
 password_length = 11
 
